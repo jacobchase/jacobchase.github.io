@@ -17,7 +17,7 @@ export default function timeline(){
     <h3 className="vertical-timeline-element-title">DevOps Engineer</h3>
     <h4 className="vertical-timeline-element-subtitle">CloudIX | New Orleans, LA</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Have to figure out what to put here.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -30,9 +30,15 @@ export default function timeline(){
   >
     <h3 className="vertical-timeline-element-title">Systems Engineer</h3>
     <h4 className="vertical-timeline-element-subtitle">New Orleans Integrated Technologies | New Orleans, LA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
+    <ul>
+        <li>Managed the help desk team, distributing and resolving support tickets.</li>
+        <li>Developed and maintained automation using Python and PowerShell to streamline routine tasks. </li>
+        <li>Created comprehensive documentation and reports for system configurations, upgrades, and maintenance
+        procedures, ensuring clarity and compliance with industry standards. </li>
+        <li>Managed system security protocols and conducted regular audits to ensure compliance with data protection
+        regulations, mitigating potential risks and vulnerabilities.
+</li>
+    </ul>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -42,7 +48,7 @@ export default function timeline(){
     iconStyle={{ background: 'rgb(19, 209, 149)', color: '#fff' }}
     icon={<FontAwesomeIcon icon={faGraduationCap}/>}
   >
-    <h3 className="vertical-timeline-element-title">B.S. in Computer Science - Software Engineering</h3>
+    <h3 className="vertical-timeline-element-title">B.S. in Computer Science - Software Engineering<br/>Minor in Business Administration</h3>
     <h4 className="vertical-timeline-element-subtitle">Louisiana State University | Baton Rouge, LA</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
@@ -58,9 +64,16 @@ export default function timeline(){
   >
     <h3 className="vertical-timeline-element-title">Teaching Assistant</h3>
     <h4 className="vertical-timeline-element-subtitle">Louisiana State University | Baton Rouge, LA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
+    <ul>
+        <li>Assisted professors in delivering engaging labs and workshops for undergraduate Computer Science courses,
+        covering topics such as data structures, algorithms, and programming fundamentals.</li>
+        <li>Provided academic support to students, clarifying complex concepts in Java. Utilized debugging techniques and code
+        reviews to help students identify errors, optimize code, and understand best practices. </li>
+        <li>Graded assignments, ensuring fair assessment and timely feedback to improve student performance. </li>
+        <li>Demonstrated patience, empathy, and strong communication skills, fostering a supportive and encouraging learning
+    environment. Led weekly office hours and review sessions, addressing common questions and preparing students for
+    exams.</li>
+    </ul>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"

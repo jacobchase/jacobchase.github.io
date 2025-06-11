@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import DownloadButton from './downloadbutton';
 export default function NavBar(){
     const [scrolled, setScrolled] = useState(false);
 

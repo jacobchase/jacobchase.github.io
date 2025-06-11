@@ -1,5 +1,6 @@
 import "/src/styles/home.css"
 import Timeline from "/src/components/timeline"
+import DownloadButton from "../components/downloadbutton"
 export default function home(){
     return(
         <main>
@@ -12,7 +13,9 @@ export default function home(){
                 </div>
                 <div className="software-stack-box">
                     <h2 className="experience">My Experience</h2>
-                    <p>Click here for a downloadable copy of my resume!</p>
+                    <div className="button-wrapper">
+                    <DownloadButton text={"Download Resume as PDF"}/>
+                    </div>
                     <Timeline/>
                 </div>
             </div>
