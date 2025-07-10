@@ -85,9 +85,14 @@ export default function timeline(){
   >
     <h3 className="vertical-timeline-element-title">Executive Assistant</h3>
     <h4 className="vertical-timeline-element-subtitle">MG Holdings | Metairie, LA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
+    <ul>
+        <li>Organize and sort property deed and investment document files.
+        </li>
+        <li>Manage and protect confidential firm information. </li>
+        <li>Enhances the executive effectiveness utilizing excellent communication and time management skills. </li>
+        <li>Provided direct support to the President of a non-profit organization. </li>
+        <li>Tasked with enhancing management of critical information data to more efficiently carry out the organization goals.</li>
+    </ul>
   </VerticalTimelineElement>
 </VerticalTimeline>
     )
