@@ -5,8 +5,9 @@ export default function Navbar() {
         JC
       </p>
       <ul className="font-[Quicksand] text-xl text-white list-none flex gap-6 ml-auto mr-20 [&>li]:cursor-pointer">
-        <li
-          className="relative
+        <a href="#about-me">
+          <li
+            className="relative
     inline-block
     px-2 py-1
     text-white
@@ -20,9 +21,10 @@ export default function Navbar() {
     after:transition-all
     after:duration-300
     hover:after:w-full"
-        >
-          About
-        </li>
+          >
+            About
+          </li>{" "}
+        </a>
         <li
           className="relative
     inline-block

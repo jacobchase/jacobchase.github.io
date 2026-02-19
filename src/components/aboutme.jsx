@@ -38,8 +38,8 @@ export default function AboutMe() {
         />
       </div>
       <div id="about-me" class="p-10 flex-col text-center">
-        <h1 className="text-white font-Quicksand text-3xl">
-          <span className="text-softperiwinkle">About Me</span>
+        <h1 className="text-white font-Quicksand text-3xl uppercase mb-5">
+          <span className="text-softperiwinkle">About</span> Me
         </h1>
         <div className="flex">
           <div className="flex flex-col max-w-xl">
