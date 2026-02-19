@@ -1,1 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import "tailwindcss";
+
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-softperiwinkle: #EE4B2B;
+  --color-periwinkle: #AFAFDC;
+  --color-mayablue: #79BEEE;
+  --color-iceyblue: #B7D3F2;
+  --color-babyblueice: #84AFE6;
+  --font-Quicksand: "Quicksand", sans-serif;
+  --animate-scroll: scroll 20s linear infinite;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes scroll-reverse{
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(50%);
+    }
+  }
+}
+body {
+  margin: 0;
+  background-image: radial-gradient(
+    circle at 50% -20%,
+    #121212 20%,
+    #121212 80%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
