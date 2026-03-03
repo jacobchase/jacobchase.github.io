@@ -52,3 +52,7 @@ html{
   animation-play-state: paused;
 }
 
+.vertical-timeline::before {
+  background: #2563eb; /* Tailwind blue-600 */
+}
+

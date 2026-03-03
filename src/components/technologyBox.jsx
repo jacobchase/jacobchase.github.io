@@ -1,7 +1,11 @@
-export default function TechnologyBox(props) {
+export default function TechnologyBox({ src, link, alt }) {
   return (
-    <div className="p-4 rounded-md border-solid outline-2 flex justify-center items-center">
-      <img src={props.src} alt={props.alt} className="aspect-3/2 w-40" />
-    </div>
+    <a
+      target="_blank"
+      href={link}
+      className="aspect-square bg-gray-800 hover:opacity-80 rounded-md flex justify-center items-center w-full max-w-[50px] hover:border-2 hover:border-blue-500"
+    >
+      <img src={src} alt={alt} className="w-[70%] h-[70%] object-contain" />
+    </a>
   );
 }
